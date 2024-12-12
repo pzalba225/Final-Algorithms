@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Dashboard</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .welcome-message {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* Table Styling */
+        .orders-section {
+            margin-top: 20px;
+        }
+
+        .orders-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .orders-table th, .orders-table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .orders-table th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .orders-table td {
+            background-color: #f9f9f9;
+        }
+
+        .orders-table tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+
+        .orders-table ul {
+            list-style-type: none;
+        }
+
+        .orders-table ul li {
+            margin: 5px 0;
+        }
+
+        /* Logout Button */
+        .logout-button {
+            display: inline-block;
+            background-color: #ff6347;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-button:hover {
+            background-color: #e04e37;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cafeteria Dashboard</h1>
+            <p class="welcome-message">Welcome, {{ session['cafeteria'] }}</p>
+        </header>
+
+        <section class="orders-section">
+            <h2>Your Orders</h2>
+            <table class="orders-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Pickup Time</th>
+                        <th>Items</th>
+                        <th>Total Price ($)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if orders %}
+                        {% for order in orders %}
+                            <tr>
+                                <td>{{ order.date }}</td>
+                                <td>{{ order.pickup_time }}</td>
+                                <td>
+                                    <ul>
+                                        {% for item in order.items %}
+                                            <li>{{ item }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                <td>{{ order.total_price | round(2) }}</td>
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="4">No orders found.</td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+        </footer>
+    </div>
+</body>
+</html>
