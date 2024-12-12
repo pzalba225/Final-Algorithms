@@ -51,7 +51,7 @@ This app was created to optimise the brief and precious time students have betwe
    - In the terminal, install Flask if you don't have it: `pip install flask`.
    - Run the application: `python app.py`.
    - Click on the provided HTTP link to start using the program.
- ![App Screenshot](pictures/3.png)
+ ![App Screenshot](pictures/4.png)
 ## Requirements
 - **Operating Systems**: Windows 10, 11, macOS, Linux.
 - **Python**: Version 3.6 or higher.
@@ -61,7 +61,7 @@ This app was created to optimise the brief and precious time students have betwe
 
 ### Login or Sign Up
 At the start, you will be asked whether you are a **buyer** or a **worker**.
- ![App Screenshot](pictures/4.png)
+ ![App Screenshot](pictures/5.png) 
 #### Buyer
 - You will be asked whether you want to log in or sign up.
   - **Login**: Enter your email and password. If they are correct, you will be logged in to the store.
@@ -77,7 +77,7 @@ Once logged in as a buyer, you will have access to the main menu with the follow
   - Lunch
   - Coffee
   - Snacks
- ![App Screenshot](pictures/5.png)
+![App Screenshot](pictures/7.png)
 - **Shopping Cart**: View the products in your cart.
   - If you haven’t added anything, it will tell you that your cart is empty.
   - You can view the items in your cart and the total price.
