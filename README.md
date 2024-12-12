@@ -22,13 +22,14 @@ The Uni Coffee Order App was created to solve the problem of long lines and limi
 2. **Recommended IDEs**: Use PyCharm or Visual Studio Code.
 3. **Open the Folder**: Open the downloaded folder in your chosen IDE.
    ![App Screenshot](pictures/1.png)
-5. **View Project Structure**: On the left side of the screen, you will see all the elements inside the zip file.
-6. **Run the Application**:
+4. **View Project Structure**: On the left side of the screen, you will see all the elements inside the zip file.
+    ![App Screenshot](pictures/2.png)
+5. **Run the Application**:
    - Open `app.py`.
    - In the terminal, install Flask if you don't have it: `pip install flask`.
    - Run the application: `python app.py`.
    - Click on the provided HTTP link to start using the program.
-
+ ![App Screenshot](pictures/3.png)
 ## Requirements
 - **Operating Systems**: Windows 10, 11, macOS, Linux.
 - **Python**: Version 3.6 or higher.
@@ -38,7 +39,7 @@ The Uni Coffee Order App was created to solve the problem of long lines and limi
 
 ### Login or Sign Up
 At the start, you will be asked whether you are a **buyer** or a **worker**.
-
+ ![App Screenshot](pictures/4.png)
 #### Buyer
 - You will be asked whether you want to log in or sign up.
   - **Login**: Enter your email and password. If they are correct, you will be logged in to the store.
@@ -54,6 +55,7 @@ Once logged in as a buyer, you will have access to the main menu with the follow
   - Lunch
   - Coffee
   - Snacks
+ ![App Screenshot](pictures/5.png)
 - **Shopping Cart**: View the products in your cart.
   - If you haven’t added anything, it will tell you that your cart is empty.
   - You can view the items in your cart and the total price.
@@ -68,7 +70,7 @@ For each category, you will be asked to enter the numbers of the products you wa
 
 ### Worker Dashboard
 If you log in as a worker, you can access the admin dashboard where you can see the orders placed by buyers. You can choose to either view the orders or exit the dashboard.
-
+ ![App Screenshot](pictures/6.png)
 ## Credits
 This project was developed by **Team 6** members:
 - Austin, Levi Singer
