@@ -71,6 +71,12 @@ For each category, you will be asked to enter the numbers of the products you wa
 ### Worker Dashboard
 If you log in as a worker, you can access the admin dashboard where you can see the orders placed by buyers. You can choose to either view the orders or exit the dashboard.
  ![App Screenshot](pictures/6.png)
+
+### Future Impovements
+- Enhanced User Experience: Use machine learning for personalized recommendations and add user reviews/ratings for informed choices.
+- Advanced Order Management: Allow order modifications and exportable order history.
+- Integration & Compatibility: Ensure cross-platform functionality (Android & iOS).
+
 ## Credits
 This project was developed by **Team 6** members:
 - Austin, Levi Singer
@@ -81,3 +87,6 @@ This project was developed by **Team 6** members:
 - Drake Saldaña, Miguel
 
 Special thanks to **Professor Antonio López Rosell** for his guidance.
+Program: Bachelor in Business Administration & Data and Business Analytics (BBA-DBA), Algorithms and Data Structures Course
+Institution: IE University, Madrid, Spain
+This project represents a culmination of teamwork, critical thinking, and programming skills to address real-world challenges faced by students. Thank you for supporting and engaging with our work!
