@@ -16,6 +16,28 @@ The Uni Coffee Order App was created to solve the problem of long lines and limi
 - **Datetime Module**: Handles timestamps for orders and past orders.
 - **Input/Output Handling**: Implements interactive features for user login, browsing, and checkout.
 - **Development and Testing**: Created using Windows and tested on both macOS and Windows.
+## Challenges and Learnings
+**Challenges**
+
+- Managing product categories and dynamically adding selected items to the cart.
+
+- Handling user input validation to ensure a seamless experience.
+
+- Simulating a real-world ordering system with Python dictionaries and logic.
+
+***Future Enhancements***
+
+- Develop a front-end interface for better usability (e.g., React or Flutter).
+
+- Integrate with a database to persist user data and past orders.
+
+- Add order notifications and tracking features.
+
+- Implement a recommendation system for frequently ordered items.
+
+***Why This Solution?***
+
+This app was created to optimise the brief and precious time students have between classes. By enabling pre-orders and offering a streamlined pickup process, the Uni Coffee Order Project enhances the overall university experience. It also serves as a practical use case for applying Python programming skills to solve real-world problems.
 
 ## Installation
 1. **Download the Zip File**: Save the folder to a known location on your computer.
