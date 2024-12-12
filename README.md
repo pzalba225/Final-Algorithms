@@ -21,8 +21,9 @@ The Uni Coffee Order App was created to solve the problem of long lines and limi
 1. **Download the Zip File**: Save the folder to a known location on your computer.
 2. **Recommended IDEs**: Use PyCharm or Visual Studio Code.
 3. **Open the Folder**: Open the downloaded folder in your chosen IDE.
-4. **View Project Structure**: On the left side of the screen, you will see all the elements inside the zip file.
-5. **Run the Application**:
+   ![App Screenshot](pictures/1.png)
+5. **View Project Structure**: On the left side of the screen, you will see all the elements inside the zip file.
+6. **Run the Application**:
    - Open `app.py`.
    - In the terminal, install Flask if you don't have it: `pip install flask`.
    - Run the application: `python app.py`.
