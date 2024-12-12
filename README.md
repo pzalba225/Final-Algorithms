@@ -81,12 +81,16 @@ Once logged in as a buyer, you will have access to the main menu with the follow
 - **Shopping Cart**: View the products in your cart.
   - If you haven’t added anything, it will tell you that your cart is empty.
   - You can view the items in your cart and the total price.
+![App Screenshot](pictures/8.png)
 - **Past Orders**: View your past orders.
+![App Screenshot](pictures/9.png)
 - **Checkout**: Proceed to pay for the products in your cart.
   - If you have products in your cart, you can proceed with checkout.
   - Choose a payment method: Apple Pay or PayPal.
   - Then, it will ask for the time you want to pick up your order.
   - The order will be placed, and the cart will be cleared after checkout.
+![App Screenshot](pictures/10.png)
+![App Screenshot](pictures/11.png)
 
 For each category, you will be asked to enter the numbers of the products you want to add to your cart, separated by commas.
 
